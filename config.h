@@ -116,9 +116,18 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
+
+/* Commenting out these originals as they don't work with pywal --bqw
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 static unsigned int defaultcs = 258;
+static unsigned int defaultrcs = 0;
+*/
+/* Changing it to this instead --bqw */
+
+unsigned int defaultfg = 256;
+unsigned int defaultbg = 232;
+static unsigned int defaultcs = 12;
 static unsigned int defaultrcs = 0;
 
 /*
